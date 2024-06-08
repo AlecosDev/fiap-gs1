@@ -24,19 +24,19 @@ git clone https://github.com/FrnndzFiap/fiap-gs1.git
 spring.profiles.active=dev
 
 ```
-docker run -d -p 8080:8080 -e PROFILE=dev frnndzfiap/fiap-gs1
+docker run -d -p 8080:8080 -e PROFILE=dev alecosdev/fiap-gs1
 ```
 
 spring.profiles.active=stg
 
 ```
-docker run -d -p 8080:8080 -e PROFILE=stg frnndzfiap/fiap-gs1
+docker run -d -p 8080:8080 -e PROFILE=stg alecosdev/fiap-gs1
 ```
 
 spring.profiles.active=prd
 
 ```
-docker run -d -p 8080:8080 -e PROFILE=prd frnndzfiap/fiap-gs1
+docker run -d -p 8080:8080 -e PROFILE=prd alecosdev/fiap-gs1
 ```
 
 ## Contatos
